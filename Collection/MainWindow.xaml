@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Collection.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Collection"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Pages ="using:Collection.Pages"
+    mc:Ignorable="d"
+    Title="Collection">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop Kind="Base"/>
+    </Window.SystemBackdrop>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TitleBar x:Name="TitleBar_Main" Title="Collector">
+            <TitleBar.IconSource>
+                <FontIconSource Glyph="&#xE7F3;"/>
+            </TitleBar.IconSource>
+        </TitleBar>
+
+        <NavigationView 
+            PaneDisplayMode="LeftCompact"
+            Grid.Row="1"
+            IsBackButtonVisible="Collapsed"
+            ItemInvoked="Navigation_ItemInvoked"
+            SelectedItem="1">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Content="Collector"  Tag="Collector">
+                    <NavigationViewItem.Icon>
+                        <FontIcon Glyph="&#xE8F1;"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+
+            </NavigationView.MenuItems>
+
+            <Frame x:Name="RootFrame"
+                   SourcePageType="Pages:Collector"/>
+        </NavigationView>
+
+        <InfoBar
+            x:Name="MessageAlert"
+            Grid.Row="1"
+            IsOpen="True"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Bottom"
+            MaxWidth="600"
+            Severity="Success"
+            Margin="24,0,24,0"
+            Closing="InfoBarClose"
+            Opacity="0.8">
+            <InfoBar.RenderTransform>
+                <TranslateTransform 
+                x:Name="MessageTransition" 
+                Y="50"/>
+            </InfoBar.RenderTransform>
+        </InfoBar>
+
+
+        <Grid.Resources>
+            <Storyboard
+                x:Name="RaiseUp"
+                Completed="RaiseUp_Completed">
+                <DoubleAnimation 
+                    Storyboard.TargetName="MessageTransition" 
+                    Storyboard.TargetProperty="Y" 
+                    To="-20"
+                    Duration="0:0:0.5">
+                    <DoubleAnimation.EasingFunction>
+                        <CircleEase EasingMode="EaseInOut" />
+                    </DoubleAnimation.EasingFunction>
+                </DoubleAnimation>
+
+                <DoubleAnimation
+                    Storyboard.TargetName="MessageAlert"
+                    Storyboard.TargetProperty="Opacity"
+                    To="1"
+                    Duration="0:0:0.5"/>
+
+            </Storyboard>
+
+            <Storyboard
+                x:Name="ReturnBack">
+                <DoubleAnimation
+                    Storyboard.TargetName="MessageTransition" 
+                    Storyboard.TargetProperty="Y" 
+                    To="50"
+                    Duration="0:0:0.5">
+                    <DoubleAnimation.EasingFunction>
+                        <CircleEase EasingMode="EaseInOut" />
+                    </DoubleAnimation.EasingFunction>
+                </DoubleAnimation>
+            </Storyboard>
+
+            <Storyboard
+                x:Name="ReturnBack_3secDelay"
+                Completed="ReturnBack_Completed">
+                <DoubleAnimation
+                    Storyboard.TargetName="MessageTransition" 
+                    Storyboard.TargetProperty="Y" 
+                    To="50"
+                    BeginTime="0:0:3"
+                    Duration="0:0:0.5">
+                    <DoubleAnimation.EasingFunction>
+                        <CircleEase EasingMode="EaseInOut" />
+                    </DoubleAnimation.EasingFunction>
+                </DoubleAnimation>
+
+                <DoubleAnimation
+                    Storyboard.TargetName="MessageAlert"
+                    Storyboard.TargetProperty="Opacity"
+                    BeginTime="0:0:5"
+                    Duration="0:0:0.5"
+                    To="0"/>
+            </Storyboard>
+
+
+            <Storyboard
+                x:Name="MessageChanging"
+                Completed="MessageChangeTime">
+                <DoubleAnimation
+                    Storyboard.TargetName="MessageTransition"
+                    Storyboard.TargetProperty="Y"
+                    To="0"
+                    Duration="0:0:0.2">
+                    <DoubleAnimation.EasingFunction>
+                        <CircleEase EasingMode="EaseInOut" />
+                    </DoubleAnimation.EasingFunction>
+                </DoubleAnimation>
+
+                <DoubleAnimation
+                    Storyboard.TargetName="MessageAlert"
+                    Storyboard.TargetProperty="Opacity"
+                    To="0.4"
+                    Duration="0:0:0.2"/>
+            </Storyboard>
+
+            <Storyboard
+                x:Name="MessageChanged_Resume"
+                Completed="MessageChangeing_Resume_Complete">
+                <DoubleAnimation
+                    Storyboard.TargetName="MessageTransition"
+                    Storyboard.TargetProperty="Y"
+                    To="-20"
+                    Duration="0:0:0.2">
+
+                    <DoubleAnimation.EasingFunction>
+                        <CircleEase EasingMode="EaseInOut" />
+                    </DoubleAnimation.EasingFunction>
+                </DoubleAnimation>
+                <DoubleAnimation
+                    Storyboard.TargetName="MessageAlert"
+                    Storyboard.TargetProperty="Opacity"
+                    To="1"
+                    Duration="0:0:0.2"/>
+
+            </Storyboard>
+        </Grid.Resources>
+    </Grid>
+</Window>

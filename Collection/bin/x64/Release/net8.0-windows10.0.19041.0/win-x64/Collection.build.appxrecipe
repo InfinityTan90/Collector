@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TRIUMPH</Machine>
+    <WindowsUser>chenx</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>0653561a-cb13-4605-b136-b58a3f0814bf</PackageIdentityName>
+    <PackageIdentityPublisher>CN=chenx</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\Project\Code\Collection\Collection\bin\x64\Release\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Project\Code\Collection\Collection\bin\x64\Release\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\bin\x64\Release\net8.0-windows10.0.19041.0\win-x64\Collection.runtimeconfig.json">
+      <PackagePath>Collection.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
+      <PackagePath>Collection.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\Microsoft.DiaSymReader.Native.amd64.dll">
+      <PackagePath>Microsoft.DiaSymReader.Native.amd64.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\System.IO.Compression.Native.dll">
+      <PackagePath>System.IO.Compression.Native.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\clretwrc.dll">
+      <PackagePath>clretwrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\clrgc.dll">
+      <PackagePath>clrgc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\clrjit.dll">
+      <PackagePath>clrjit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\coreclr.dll">
+      <PackagePath>coreclr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\createdump.exe">
+      <PackagePath>createdump.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\hostfxr.dll">
+      <PackagePath>hostfxr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\hostpolicy.dll">
+      <PackagePath>hostpolicy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\mscordaccore.dll">
+      <PackagePath>mscordaccore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\mscordaccore_amd64_amd64_8.0.2025.41914.dll">
+      <PackagePath>mscordaccore_amd64_amd64_8.0.2025.41914.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\mscordbi.dll">
+      <PackagePath>mscordbi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\mscorrc.dll">
+      <PackagePath>mscorrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\native\msquic.dll">
+      <PackagePath>msquic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.web.webview2\1.0.3179.45\runtimes\win-x64\native\WebView2Loader.dll">
+      <PackagePath>WebView2Loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\runtimes\win-x64\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.web.webview2\1.0.3179.45\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
+      <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\linked\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\linked\System.dll">
+      <PackagePath>System.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\CommunityToolkit.WinUI.Controls.SettingsControls.dll">
+      <PackagePath>CommunityToolkit.WinUI.Controls.SettingsControls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\CommunityToolkit.WinUI.Helpers.dll">
+      <PackagePath>CommunityToolkit.WinUI.Helpers.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\CommunityToolkit.WinUI.Triggers.dll">
+      <PackagePath>CommunityToolkit.WinUI.Triggers.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\Microsoft.WinUI.dll">
+      <PackagePath>Microsoft.WinUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Windows.Extensions.dll">
+      <PackagePath>System.Windows.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\Collection.dll">
+      <PackagePath>Collection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\Microsoft.Win32.Registry.dll">
+      <PackagePath>Microsoft.Win32.Registry.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.ComponentModel.Primitives.dll">
+      <PackagePath>System.ComponentModel.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>System.ComponentModel.TypeConverter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Formats.Asn1.dll">
+      <PackagePath>System.Formats.Asn1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.IO.Compression.Brotli.dll">
+      <PackagePath>System.IO.Compression.Brotli.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>System.IO.MemoryMappedFiles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Net.NameResolution.dll">
+      <PackagePath>System.Net.NameResolution.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Net.Quic.dll">
+      <PackagePath>System.Net.Quic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Net.Security.dll">
+      <PackagePath>System.Net.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Net.ServicePoint.dll">
+      <PackagePath>System.Net.ServicePoint.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Private.CoreLib.dll">
+      <PackagePath>System.Private.CoreLib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Security.Cryptography.dll">
+      <PackagePath>System.Security.Cryptography.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Security.Principal.Windows.dll">
+      <PackagePath>System.Security.Principal.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\System.Threading.Channels.dll">
+      <PackagePath>System.Threading.Channels.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\R2R\WinRT.Runtime.dll">
+      <PackagePath>WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\Collection.deps.json">
+      <PackagePath>Collection.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.controls.settingscontrols\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Controls.SettingsControls.pri">
+      <PackagePath>CommunityToolkit.WinUI.Controls.SettingsControls.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.extensions\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Extensions.pri">
+      <PackagePath>CommunityToolkit.WinUI.Extensions.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.helpers\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Helpers.pri">
+      <PackagePath>CommunityToolkit.WinUI.Helpers.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.triggers\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Triggers.pri">
+      <PackagePath>CommunityToolkit.WinUI.Triggers.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.web.webview2\1.0.3179.45\build\..\lib\Microsoft.Web.WebView2.Core.winmd">
+      <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\bin\x64\Release\net8.0-windows10.0.19041.0\win-x64\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\chenx\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.8.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.8</Name>
+      <Version>8000.616.304.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.8, MinVersion = 8000.616.304.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\chenx\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.8.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\chenx\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.8.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.8</Name>
+      <Version>8000.616.304.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.8, MinVersion = 8000.616.304.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\chenx\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.8.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\chenx\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.8.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.8</Name>
+      <Version>8000.616.304.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.8, MinVersion = 8000.616.304.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\chenx\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.8.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\chenx\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.8.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.8</Name>
+      <Version>8000.616.304.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.8, MinVersion = 8000.616.304.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\chenx\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.8.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
