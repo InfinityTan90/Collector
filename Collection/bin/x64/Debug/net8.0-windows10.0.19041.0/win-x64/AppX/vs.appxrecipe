@@ -29,21 +29,21 @@
     <AppXManifest Include="D:\Project\Code\Collection\Collection\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-09-21T13:30:37.624</Modified>
+      <Modified>2025-09-22T14:45:42.536</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Collection.runtimeconfig.json">
       <PackagePath>Collection.runtimeconfig.json</PackagePath>
-      <Modified>2025-09-21T07:43:44.117</Modified>
+      <Modified>2025-09-22T12:46:53.662</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>Collection.exe</PackagePath>
-      <Modified>2025-09-21T13:30:36.770</Modified>
+      <Modified>2025-09-22T14:45:41.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Collection.dll">
       <PackagePath>Collection.dll</PackagePath>
-      <Modified>2025-09-21T13:30:36.766</Modified>
+      <Modified>2025-09-22T14:45:41.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1893,6 +1893,10 @@
       <PackagePath>CommunityToolkit.WinUI.Controls.SettingsControls.dll</PackagePath>
       <Modified>2025-04-02T18:14:34.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.controls.sizers\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Controls.Sizers.dll">
+      <PackagePath>CommunityToolkit.WinUI.Controls.Sizers.dll</PackagePath>
+      <Modified>2025-04-02T18:14:34.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.extensions\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Extensions.dll">
       <PackagePath>CommunityToolkit.WinUI.Extensions.dll</PackagePath>
       <Modified>2025-04-02T18:14:38.000</Modified>
@@ -2071,11 +2075,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Collection.deps.json">
       <PackagePath>Collection.deps.json</PackagePath>
-      <Modified>2025-09-21T07:43:44.091</Modified>
+      <Modified>2025-09-22T12:46:53.637</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.controls.settingscontrols\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Controls.SettingsControls.pri">
       <PackagePath>CommunityToolkit.WinUI.Controls.SettingsControls.pri</PackagePath>
       <Modified>2025-04-02T18:04:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.controls.sizers\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Controls.Sizers.pri">
+      <PackagePath>CommunityToolkit.WinUI.Controls.Sizers.pri</PackagePath>
+      <Modified>2025-04-02T18:05:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.extensions\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Extensions.pri">
       <PackagePath>CommunityToolkit.WinUI.Extensions.pri</PackagePath>
@@ -2123,7 +2131,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Project\Code\Collection\Collection\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-09-21T13:29:58.542</Modified>
+      <Modified>2025-09-22T14:45:41.913</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

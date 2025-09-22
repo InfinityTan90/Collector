@@ -8,7 +8,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:Model ="using:Collection.Model"
     xmlns:Hinstance ="using:Collection.Global_var"
+    xmlns:Controls="using:CommunityToolkit.WinUI.Controls"
     mc:Ignorable="d">
+
+    <Page.Resources>
+        <local:WidthSubtractConverter x:Key="WidthSubtractConverter"/>
+    </Page.Resources>
 
     <Grid>
         <Grid.RowDefinitions>
@@ -25,7 +30,7 @@
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <AutoSuggestBox x:ConnectionId='13'
+                <AutoSuggestBox x:ConnectionId='16'
                     x:Name="FilterText"
                     Header="Search a audio"
                     PlaceholderText="Type a name"
@@ -39,7 +44,7 @@
                             HorizontalAlignment="Right"
                             Orientation="Horizontal"
                             Spacing="12">
-                    <Button x:ConnectionId='14' 
+                    <Button x:ConnectionId='17' 
                         Width="42"
                         Height="36"
                                        
@@ -50,7 +55,7 @@
                         </Button.Content>
                     </Button>
                     
-                    <Button x:ConnectionId='15'
+                    <Button x:ConnectionId='18'
                         Width="42"
                         Height="36"
                                      
@@ -61,7 +66,7 @@
                         </Button.Content>
                     </Button>
                     
-                    <Button x:ConnectionId='16' 
+                    <Button x:ConnectionId='19' 
                         Width="42"
                         Height="36"
                                           
@@ -78,15 +83,17 @@
         </StackPanel>
         
         
-        <Grid 
+        <Grid
             Grid.Row="1"
             Margin="36,28,36,36"
             CornerRadius="8"
             BorderThickness="1"
             BorderBrush="{StaticResource CardStrokeColorDefaultBrush}">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" MinWidth="310"/>
-                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="*"
+                                  MinWidth="310"/>
+                <ColumnDefinition Width="225"
+                                  MinWidth="0"/>
             </Grid.ColumnDefinitions>
 
             <ProgressBar x:ConnectionId='2'
@@ -98,21 +105,22 @@
                 Value="0"
                 Visibility="Collapsed"/>
 
-            <Border
+            <Border x:ConnectionId='3'
+                x:Name="AudioGrid"
                 Background="{ThemeResource ControlAltFillColorSecondaryBrush}">
-                <GridView x:ConnectionId='9' x:Name="VoiceTable"
+                <GridView x:ConnectionId='12' x:Name="VoiceTable"
                           IsItemClickEnabled="True"
                           Margin="6,6,6,6"
                           SelectionMode="Single">
                     <GridView.ItemTemplate>
                         <DataTemplate                         >
-                            <Button x:ConnectionId='11'
+                            <Button x:ConnectionId='14'
                                 Width="85"
                                 Height="85"
                                               
                                                            >
                                 <Button.Content>
-                                    <TextBlock x:ConnectionId='12' 
+                                    <TextBlock x:ConnectionId='15' 
                                                             
                                         FontSize="15"
                                         HorizontalAlignment="Stretch"
@@ -135,15 +143,30 @@
                 </GridView>
             </Border>
 
-            <Border
+            <Controls:GridSplitter x:ConnectionId='4'
+                x:Name="DataPanelSizer"
                 Grid.Column="1"
+                HorizontalAlignment="Left"
+                ResizeBehavior="BasedOnAlignment"
+                ResizeDirection="Auto"
+                Background="Transparent"
+                Canvas.ZIndex="2">
+                <Controls:GridSplitter.RenderTransform>
+                    <TranslateTransform X="0" />
+                </Controls:GridSplitter.RenderTransform>
+            </Controls:GridSplitter>
+            
+
+            <Border x:ConnectionId='5'
+                x:Name="DataPanel"
+                Grid.Column="2"
                 Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
                 BorderBrush="{StaticResource CardStrokeColorDefaultBrush}"
                 BorderThickness="1,0,0,0">
 
                 <ScrollView>
                     <Grid
-                        Margin="20,20,20,20">
+                        Margin="24,24,24,24">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
@@ -152,13 +175,13 @@
                             <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
                         </Grid.RowDefinitions>
-                        
+
                         <StackPanel Spacing="4">
-                            
+
                             <TextBlock 
                                 Text="Name:" 
                                 Style="{StaticResource BodyStrongTextBlockStyle}"/>
-                            <TextBlock x:ConnectionId='8' 
+                            <TextBlock x:ConnectionId='11' 
                                 x:Name="FileName" 
                                 Style="{StaticResource BodyTextBlockStyle}"/>
                         </StackPanel>
@@ -171,7 +194,7 @@
                             <TextBlock 
                                 Text="Path:" 
                                 Style="{StaticResource BodyStrongTextBlockStyle}"/>
-                            <TextBlock x:ConnectionId='7' 
+                            <TextBlock x:ConnectionId='10' 
                                 x:Name="FilePath" 
                                 Style="{StaticResource BodyTextBlockStyle}"/>
                         </StackPanel>
@@ -184,18 +207,18 @@
                                 Text="Match mode:"
                                 Style="{StaticResource BodyStrongTextBlockStyle}"/>
 
-                            <RadioButtons x:ConnectionId='6'
+                            <RadioButtons x:ConnectionId='9'
                                 x:Name="MatchMode"
                                 SelectedIndex="2"
                                                                    >
                                 <RadioButton Content="Starts with" />
-                                
+
                                 <RadioButton Content="Ends with" />
-                                
+
                                 <RadioButton Content="Included" />
-                                
+
                                 <RadioButton Content="Precise" />
-                            
+
                             </RadioButtons>
                         </StackPanel>
 
@@ -207,12 +230,12 @@
                             <TextBlock 
                                 Text="Searched(Items):" 
                                 Style="{StaticResource BodyStrongTextBlockStyle}"/>
-                            <TextBlock x:ConnectionId='5' 
+                            <TextBlock x:ConnectionId='8' 
                                 x:Name="Nums" 
                                 Style="{StaticResource BodyTextBlockStyle}"/>
                         </StackPanel>
 
-                        <Button x:ConnectionId='3' 
+                        <Button x:ConnectionId='6' 
                             x:Name="Play"
                             Content="Suspend"
                             Margin="0,12,0,0"
@@ -221,7 +244,7 @@
                                                      />
 
 
-                        <Slider x:ConnectionId='4' 
+                        <Slider x:ConnectionId='7' 
                             x:Name="Volum"
                             Grid.Row="5"
                             Header="Volum:"
@@ -231,10 +254,11 @@
                             Value="100"
                                                        
                             Margin="0,12,0,0"/>
-                        
+
                     </Grid>
                 </ScrollView>
             </Border>
+
         </Grid>
     </Grid>
     

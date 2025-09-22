@@ -565,3 +565,5 @@ D:\Project\Code\Collection\Collection\bin\x64\Debug\net8.0-windows10.0.19041.0\w
 D:\Project\Code\Collection\Collection\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\zh-Hant\UIAutomationTypes.resources.dll
 D:\Project\Code\Collection\Collection\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\zh-Hant\WindowsBase.resources.dll
 D:\Project\Code\Collection\Collection\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\zh-Hant\WindowsFormsIntegration.resources.dll
+D:\Project\Code\Collection\Collection\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CommunityToolkit.WinUI.Controls.Sizers.dll
+D:\Project\Code\Collection\Collection\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CommunityToolkit.WinUI.Controls.Sizers.pri.xml

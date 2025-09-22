@@ -8,7 +8,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:Model ="using:Collection.Model"
     xmlns:Hinstance ="using:Collection.Global_var"
+    xmlns:Controls="using:CommunityToolkit.WinUI.Controls"
     mc:Ignorable="d">
+
+    <Page.Resources>
+        <local:WidthSubtractConverter x:Key="WidthSubtractConverter"/>
+    </Page.Resources>
 
     <Grid>
         <Grid.RowDefinitions>
@@ -78,15 +83,17 @@
         </StackPanel>
         
         
-        <Grid 
+        <Grid
             Grid.Row="1"
             Margin="36,28,36,36"
             CornerRadius="8"
             BorderThickness="1"
             BorderBrush="{StaticResource CardStrokeColorDefaultBrush}">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" MinWidth="310"/>
-                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="*"
+                                  MinWidth="310"/>
+                <ColumnDefinition Width="225"
+                                  MinWidth="0"/>
             </Grid.ColumnDefinitions>
 
             <ProgressBar
@@ -99,6 +106,7 @@
                 Visibility="Collapsed"/>
 
             <Border
+                x:Name="AudioGrid"
                 Background="{ThemeResource ControlAltFillColorSecondaryBrush}">
                 <GridView x:Name="VoiceTable"
                           IsItemClickEnabled="True"
@@ -135,15 +143,30 @@
                 </GridView>
             </Border>
 
-            <Border
+            <Controls:GridSplitter
+                x:Name="DataPanelSizer"
                 Grid.Column="1"
+                HorizontalAlignment="Left"
+                ResizeBehavior="BasedOnAlignment"
+                ResizeDirection="Auto"
+                Background="Transparent"
+                Canvas.ZIndex="2">
+                <Controls:GridSplitter.RenderTransform>
+                    <TranslateTransform X="0" />
+                </Controls:GridSplitter.RenderTransform>
+            </Controls:GridSplitter>
+            
+
+            <Border
+                x:Name="DataPanel"
+                Grid.Column="2"
                 Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
                 BorderBrush="{StaticResource CardStrokeColorDefaultBrush}"
                 BorderThickness="1,0,0,0">
 
                 <ScrollView>
                     <Grid
-                        Margin="20,20,20,20">
+                        Margin="24,24,24,24">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
@@ -152,9 +175,9 @@
                             <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
                         </Grid.RowDefinitions>
-                        
+
                         <StackPanel Spacing="4">
-                            
+
                             <TextBlock 
                                 Text="Name:" 
                                 Style="{StaticResource BodyStrongTextBlockStyle}"/>
@@ -189,13 +212,13 @@
                                 SelectedIndex="2"
                                 SelectionChanged="MatchModeChanged">
                                 <RadioButton Content="Starts with" />
-                                
+
                                 <RadioButton Content="Ends with" />
-                                
+
                                 <RadioButton Content="Included" />
-                                
+
                                 <RadioButton Content="Precise" />
-                            
+
                             </RadioButtons>
                         </StackPanel>
 
@@ -231,10 +254,11 @@
                             Value="100"
                             ValueChanged="VolumChanged"
                             Margin="0,12,0,0"/>
-                        
+
                     </Grid>
                 </ScrollView>
             </Border>
+
         </Grid>
     </Grid>
     

@@ -276,3 +276,29 @@ public class Items
             Name = "Unknow";
     }
 }
+
+public class WidthSubtractConverter : IValueConverter
+{
+    public object Convert(object value, Type targetType, object parameter, string language)
+    {
+        if (value is double width)
+        {
+            double subtractValue = 52;
+
+            if (parameter != null && double.TryParse(parameter.ToString(), out double customValue))
+            {
+                subtractValue = customValue;
+            }
+
+            double result = width - subtractValue;
+            return result > 0 ? result : 0; 
+        }
+
+        return 0;
+    }
+
+    public object ConvertBack(object value, Type targetType, object parameter, string language)
+    {
+        throw new NotImplementedException();
+    }
+}

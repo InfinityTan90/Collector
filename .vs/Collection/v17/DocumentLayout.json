@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Project\\Code\\Collection\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5745EE3-C5FF-412C-9128-F5D6297BEB45}|Collection\\Collection.csproj|d:\\project\\code\\collection\\collection\\pages\\collector.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5745EE3-C5FF-412C-9128-F5D6297BEB45}|Collection\\Collection.csproj|solutionrelative:collection\\pages\\collector.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5745EE3-C5FF-412C-9128-F5D6297BEB45}|Collection\\Collection.csproj|d:\\project\\code\\collection\\collection\\pages\\collector.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5745EE3-C5FF-412C-9128-F5D6297BEB45}|Collection\\Collection.csproj|solutionrelative:collection\\pages\\collector.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5745EE3-C5FF-412C-9128-F5D6297BEB45}|Collection\\Collection.csproj|d:\\project\\code\\collection\\collection\\pages\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5745EE3-C5FF-412C-9128-F5D6297BEB45}|Collection\\Collection.csproj|solutionrelative:collection\\pages\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Settings.xaml",
+              "DocumentMoniker": "D:\\Project\\Code\\Collection\\Collection\\Pages\\Settings.xaml",
+              "RelativeDocumentMoniker": "Collection\\Pages\\Settings.xaml",
+              "ToolTip": "D:\\Project\\Code\\Collection\\Collection\\Pages\\Settings.xaml",
+              "RelativeToolTip": "Collection\\Pages\\Settings.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-22T12:20:58.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Collector.xaml",
+              "DocumentMoniker": "D:\\Project\\Code\\Collection\\Collection\\Pages\\Collector.xaml",
+              "RelativeDocumentMoniker": "Collection\\Pages\\Collector.xaml",
+              "ToolTip": "D:\\Project\\Code\\Collection\\Collection\\Pages\\Collector.xaml",
+              "RelativeToolTip": "Collection\\Pages\\Collector.xaml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAswJcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-22T12:18:30.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Collector.xaml.cs",
+              "DocumentMoniker": "D:\\Project\\Code\\Collection\\Collection\\Pages\\Collector.xaml.cs",
+              "RelativeDocumentMoniker": "Collection\\Pages\\Collector.xaml.cs",
+              "ToolTip": "D:\\Project\\Code\\Collection\\Collection\\Pages\\Collector.xaml.cs",
+              "RelativeToolTip": "Collection\\Pages\\Collector.xaml.cs",
+              "ViewState": "AgIAABgBAAAAAAAAAAAmwBsBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T12:18:26.974Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

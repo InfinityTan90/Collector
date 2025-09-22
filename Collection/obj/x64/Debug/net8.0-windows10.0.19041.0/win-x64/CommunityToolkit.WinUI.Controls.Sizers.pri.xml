@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="CommunityToolkit.WinUI.Controls.Sizers" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN-US</Language>
+		</Qualifiers>
+		<ResourceMapSubtree name="CommunityToolkit.WinUI.Controls.Sizers">
+			<ResourceMapSubtree name="Resources">
+				<NamedResource name="WCT_SizerBase_AutomationName" uri="ms-resource://CommunityToolkit.WinUI.Controls.Sizers/CommunityToolkit.WinUI.Controls.Sizers/Resources/WCT_SizerBase_AutomationName">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Sizer</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="CommunityToolkit.WinUI.Controls.Sizers">
+				<NamedResource name="SizerBase.xbf" uri="ms-resource://CommunityToolkit.WinUI.Controls.Sizers/Files/CommunityToolkit.WinUI.Controls.Sizers/SizerBase.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://CommunityToolkit.WinUI.Controls.Sizers/Files/CommunityToolkit.WinUI.Controls.Sizers/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

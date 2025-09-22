@@ -32,6 +32,23 @@
           }
         }
       },
+      "CommunityToolkit.WinUI.Controls.Sizers/8.2.250402": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.WinUI.Extensions": "8.2.250402",
+          "Microsoft.WindowsAppSDK": "1.6.250108002"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        }
+      },
       "CommunityToolkit.WinUI.Extensions/8.2.250402": {
         "type": "package",
         "dependencies": {
@@ -642,6 +659,23 @@
           }
         }
       },
+      "CommunityToolkit.WinUI.Controls.Sizers/8.2.250402": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.WinUI.Extensions": "8.2.250402",
+          "Microsoft.WindowsAppSDK": "1.6.250108002"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        }
+      },
       "CommunityToolkit.WinUI.Extensions/8.2.250402": {
         "type": "package",
         "dependencies": {
@@ -1179,6 +1213,23 @@
           }
         }
       },
+      "CommunityToolkit.WinUI.Controls.Sizers/8.2.250402": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.WinUI.Extensions": "8.2.250402",
+          "Microsoft.WindowsAppSDK": "1.6.250108002"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        }
+      },
       "CommunityToolkit.WinUI.Extensions/8.2.250402": {
         "type": "package",
         "dependencies": {
@@ -1712,6 +1763,23 @@
         },
         "runtime": {
           "lib/net8.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.SettingsControls.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        }
+      },
+      "CommunityToolkit.WinUI.Controls.Sizers/8.2.250402": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.WinUI.Extensions": "8.2.250402",
+          "Microsoft.WindowsAppSDK": "1.6.250108002"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.dll": {
+            "related": ".pdb;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.dll": {
             "related": ".pdb;.pri;.xml"
           }
         }
@@ -2283,6 +2351,44 @@
         "lib/net9.0/CommunityToolkit.WinUI.Controls.SettingsControls.dll",
         "lib/net9.0/CommunityToolkit.WinUI.Controls.SettingsControls.pdb",
         "lib/net9.0/CommunityToolkit.WinUI.Controls.SettingsControls.xml"
+      ]
+    },
+    "CommunityToolkit.WinUI.Controls.Sizers/8.2.250402": {
+      "sha512": "8kWJX+TxUyYbLFPpzoivtYPnSI9kgBGL1dfdsteQSw6Yq69v7mv/Z3emTLHqBJXOi9WKCiq2HNhKXuCH18/ctA==",
+      "type": "package",
+      "path": "communitytoolkit.winui.controls.sizers/8.2.250402",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.md",
+        "ReadMe.md",
+        "communitytoolkit.winui.controls.sizers.8.2.250402.nupkg.sha512",
+        "communitytoolkit.winui.controls.sizers.nuspec",
+        "icon.png",
+        "lib/net7.0-windows10.0.18362/_._",
+        "lib/net8.0-windows10.0.18362/_._",
+        "lib/net8.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.dll",
+        "lib/net8.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.pdb",
+        "lib/net8.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.pri",
+        "lib/net8.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.xml",
+        "lib/net9.0-android35.0/CommunityToolkit.WinUI.Controls.Sizers.aar",
+        "lib/net9.0-android35.0/CommunityToolkit.WinUI.Controls.Sizers.dll",
+        "lib/net9.0-android35.0/CommunityToolkit.WinUI.Controls.Sizers.pdb",
+        "lib/net9.0-android35.0/CommunityToolkit.WinUI.Controls.Sizers.xml",
+        "lib/net9.0-ios18.0/CommunityToolkit.WinUI.Controls.Sizers.dll",
+        "lib/net9.0-ios18.0/CommunityToolkit.WinUI.Controls.Sizers.pdb",
+        "lib/net9.0-ios18.0/CommunityToolkit.WinUI.Controls.Sizers.xml",
+        "lib/net9.0-maccatalyst18.0/CommunityToolkit.WinUI.Controls.Sizers.dll",
+        "lib/net9.0-maccatalyst18.0/CommunityToolkit.WinUI.Controls.Sizers.pdb",
+        "lib/net9.0-maccatalyst18.0/CommunityToolkit.WinUI.Controls.Sizers.xml",
+        "lib/net9.0-windows10.0.18362/_._",
+        "lib/net9.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.dll",
+        "lib/net9.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.pdb",
+        "lib/net9.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.pri",
+        "lib/net9.0-windows10.0.19041/CommunityToolkit.WinUI.Controls.Sizers.xml",
+        "lib/net9.0/CommunityToolkit.WinUI.Controls.Sizers.dll",
+        "lib/net9.0/CommunityToolkit.WinUI.Controls.Sizers.pdb",
+        "lib/net9.0/CommunityToolkit.WinUI.Controls.Sizers.xml"
       ]
     },
     "CommunityToolkit.WinUI.Extensions/8.2.250402": {
@@ -4516,6 +4622,7 @@
   "projectFileDependencyGroups": {
     "net8.0-windows10.0.19041": [
       "CommunityToolkit.WinUI.Controls.SettingsControls >= 8.2.250402",
+      "CommunityToolkit.WinUI.Controls.Sizers >= 8.2.250402",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.26100.4948",
       "Microsoft.WindowsAppSDK >= 1.8.250907003",
       "NAudio >= 2.2.1",
@@ -4574,6 +4681,10 @@
         "targetAlias": "net8.0-windows10.0.19041.0",
         "dependencies": {
           "CommunityToolkit.WinUI.Controls.SettingsControls": {
+            "target": "Package",
+            "version": "[8.2.250402, )"
+          },
+          "CommunityToolkit.WinUI.Controls.Sizers": {
             "target": "Package",
             "version": "[8.2.250402, )"
           },

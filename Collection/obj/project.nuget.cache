@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QoqKBr2F/EE=",
+  "dgSpecHash": "KcMRy1BS8ko=",
   "success": true,
   "projectFilePath": "D:\\Project\\Code\\Collection\\Collection\\Collection.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chenx\\.nuget\\packages\\communitytoolkit.common\\8.2.1\\communitytoolkit.common.8.2.1.nupkg.sha512",
     "C:\\Users\\chenx\\.nuget\\packages\\communitytoolkit.winui.controls.settingscontrols\\8.2.250402\\communitytoolkit.winui.controls.settingscontrols.8.2.250402.nupkg.sha512",
+    "C:\\Users\\chenx\\.nuget\\packages\\communitytoolkit.winui.controls.sizers\\8.2.250402\\communitytoolkit.winui.controls.sizers.8.2.250402.nupkg.sha512",
     "C:\\Users\\chenx\\.nuget\\packages\\communitytoolkit.winui.extensions\\8.2.250402\\communitytoolkit.winui.extensions.8.2.250402.nupkg.sha512",
     "C:\\Users\\chenx\\.nuget\\packages\\communitytoolkit.winui.helpers\\8.2.250402\\communitytoolkit.winui.helpers.8.2.250402.nupkg.sha512",
     "C:\\Users\\chenx\\.nuget\\packages\\communitytoolkit.winui.triggers\\8.2.250402\\communitytoolkit.winui.triggers.8.2.250402.nupkg.sha512",

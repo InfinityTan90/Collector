@@ -1420,6 +1420,9 @@
     <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.controls.settingscontrols\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Controls.SettingsControls.dll">
       <PackagePath>CommunityToolkit.WinUI.Controls.SettingsControls.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.controls.sizers\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Controls.Sizers.dll">
+      <PackagePath>CommunityToolkit.WinUI.Controls.Sizers.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.extensions\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Extensions.dll">
       <PackagePath>CommunityToolkit.WinUI.Extensions.dll</PackagePath>
     </AppxPackagedFile>
@@ -1557,6 +1560,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.controls.settingscontrols\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Controls.SettingsControls.pri">
       <PackagePath>CommunityToolkit.WinUI.Controls.SettingsControls.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.controls.sizers\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Controls.Sizers.pri">
+      <PackagePath>CommunityToolkit.WinUI.Controls.Sizers.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chenx\.nuget\packages\communitytoolkit.winui.extensions\8.2.250402\lib\net8.0-windows10.0.19041\CommunityToolkit.WinUI.Extensions.pri">
       <PackagePath>CommunityToolkit.WinUI.Extensions.pri</PackagePath>
